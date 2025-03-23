@@ -1,1 +1,37 @@
-[]
+[
+  {
+    "id": "7a2b6c0f-0e5b-4f75-abbe-4c604eb1e6f4",
+    "name": "Gerardo Smith",
+    "phone": "1-279-406-6042 x7624",
+    "email": "Kendrick_Little67@hotmail.com",
+    "job": "Legacy Accounts Producer"
+  },
+  {
+    "id": "d2b8e16c-6d3c-4383-8c15-7d9bc7b4c1c6",
+    "name": "Max Morar",
+    "phone": "1-964-324-9941 x051",
+    "email": "Caleb27@yahoo.com",
+    "job": "Direct Communications Engineer"
+  },
+  {
+    "id": "f86c4b0c-9c26-4c2c-9d21-662149628b47",
+    "name": "Ruben Buckridge",
+    "phone": "899-654-6173 x946",
+    "email": "Milton92@yahoo.com",
+    "job": "Senior Interactions Agent"
+  },
+  {
+    "id": "55521c8a-d108-4571-a261-bec11934202f",
+    "name": "Clark Goodwin",
+    "phone": "557.701.8970 x8822",
+    "email": "Frida85@hotmail.com",
+    "job": "Principal Solutions Administrator"
+  },
+  {
+    "id": "8da35692-2036-4841-97f1-1396ba439d3e",
+    "name": "Cameron Price",
+    "phone": "(870) 623-7506 x03477",
+    "email": "Quincy92@yahoo.com",
+    "job": "Investor Applications Liaison"
+  }
+]
