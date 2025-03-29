@@ -1,20 +1,11 @@
 import { createFakeContact } from '../utils/createFakeContact.js';
-import { readContacts, writeContacts } from '../utils/fileUtils.js';
+import { readContacts } from '../utils/readContacts.js';
+import { writeContacts } from '../utils/writeContacts.js';
 
-const generateContacts = (number) => {
-  return Array.from({ length: number }, createFakeContact);
+const generateContacts = async (number) => {
+  const contactsList = await readContacts();
+  const newContacts = Array(number).fill(0).map(createFakeContact);
+  await writeContacts([...contactsList, ...newContacts]);
 };
 
-(async (number) => {
-  try {
-    let contacts = await readContacts();
-    const newContacts = generateContacts(number);
-    contacts = contacts.concat(newContacts);
-    await writeContacts(contacts);
-  } catch (error) {
-    console.error(
-      'An error happened during the generateContacts process:',
-      error,
-    );
-  }
-})(5);
+generateContacts(5);
